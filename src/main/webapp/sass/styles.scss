@@ -1,0 +1,135 @@
+// Import all the variables into the main css file.
+@import "variables";
+
+// I gather this file is a starting point for the project.
+/*@import "bootstrap";
+
+// Include responsive Bootstrap styles
+@import "bootstrap-responsive";*/
+
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/transition";
+@import "compass/css3/images";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/box-sizing";
+@import "compass/css3/transform";
+
+$borderColor : #e5e5e5;
+
+body { padding-top: 60px; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url(images/glyphicons-halflings.png?1375862844);
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+
+.variants-container { max-width: 480px; margin: 0 auto; position: relative;
+    li {    
+        float: left; 
+        max-width: 25px; 
+        border: 1px solid $borderColor; 
+        margin: 8px 15px 8px 0; 
+        overflow: hidden;
+        width: 25px; 
+        padding: 3px; 
+        text-align: center; 
+        background-color: rgb(67, 157, 207); 
+        @include single-box-shadow; 
+        @include border-radius( 3px ); 
+        @include transition( all 1s);
+        
+        &:hover { opacity: 0.7; background-color: red; @include box-shadow(rgba(red, 0.7) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset); @include rotate( 360deg ); }
+        &.selected { opacity: 0.7; background-color: red; @include box-shadow(rgba(red, 0.7) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset); @include rotate( 360deg ); }
+    } 
+    a { color: #fff; font-weight: bold; text-decoration: none; }
+    
+    h3 { text-align: center; }
+}
+
+.buttons-container { max-width: 480px; margin: 0 auto; position: relative; }
+
+input.period, select.in-bar, input.in-bar, label.in-bar { margin-bottom: 0; margin-top: 5px; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    body { padding-top: 0; }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    body { padding-top: 0; }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    body { padding-top: 0; }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    body { padding-top: 0; }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 768px) {
+    body { padding-top: 0; }
+}
+
+@media only screen and (max-width : 400px) {
+    body { padding-top: 0; }
+}
+
+@media only screen and (max-width : 720px) {
+    body { padding-top: 0; }
+}
+
+@media only screen and (max-width : 480px) {
+    body { padding-top: 0; }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+    body { padding-top: 0; }
+}
+
+@media only screen and (min-width: 35em) {
+    
+}

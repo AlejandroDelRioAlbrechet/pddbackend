@@ -1,0 +1,179 @@
+/* line 20, ../sass/styles.scss */
+body {
+  padding-top: 60px;
+}
+
+/* line 23, ../sass/styles.scss */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url(images/glyphicons-halflings.png?1375862844);
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+
+/* line 36, ../sass/styles.scss */
+.variants-container {
+  max-width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 37, ../sass/styles.scss */
+.variants-container li {
+  float: left;
+  max-width: 25px;
+  border: 1px solid #e5e5e5;
+  margin: 8px 15px 8px 0;
+  overflow: hidden;
+  width: 25px;
+  padding: 3px;
+  text-align: center;
+  background-color: #439dcf;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+/* line 51, ../sass/styles.scss */
+.variants-container li:hover {
+  opacity: 0.7;
+  background-color: red;
+  -webkit-box-shadow: rgba(255, 0, 0, 0.7) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+  -moz-box-shadow: rgba(255, 0, 0, 0.7) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+  box-shadow: rgba(255, 0, 0, 0.7) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/* line 52, ../sass/styles.scss */
+.variants-container li.selected {
+  opacity: 0.7;
+  background-color: red;
+  -webkit-box-shadow: rgba(255, 0, 0, 0.7) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+  -moz-box-shadow: rgba(255, 0, 0, 0.7) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+  box-shadow: rgba(255, 0, 0, 0.7) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/* line 54, ../sass/styles.scss */
+.variants-container a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 56, ../sass/styles.scss */
+.variants-container h3 {
+  text-align: center;
+}
+
+/* line 59, ../sass/styles.scss */
+.buttons-container {
+  max-width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 61, ../sass/styles.scss */
+input.period, select.in-bar, input.in-bar, label.in-bar {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  /* line 66, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  /* line 82, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+  /* line 88, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+  /* line 94, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (max-width: 768px) {
+  /* line 99, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 103, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 720px) {
+  /* line 107, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 111, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+  /* line 130, ../sass/styles.scss */
+  body {
+    padding-top: 0;
+  }
+}

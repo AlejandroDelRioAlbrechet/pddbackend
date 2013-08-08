@@ -1,0 +1,48 @@
+{
+        "range" : [ 1,100 ]
+    ,   "variants": 
+        [
+            {
+                "number" : 1
+            ,   "questions" : 
+                [
+                    {
+                        "title" : ""
+                    ,   "image" : ""
+                    ,   "answers" : 
+                        [
+                            {  
+                                "title" : ""
+                            ,   "image" : ""
+                            ,   "correct" : 0
+                            }
+                        ,
+                        ]    
+                    }
+                ,
+                ]
+            }
+        ,   {
+                "number" : 2
+            ,   "questions" : 
+                [
+                    {
+                        "title" : ""
+                    ,   "image" : ""
+                    ,   "answers" : 
+                        [
+                            {  
+                                "title" : ""
+                            ,   "image" : ""
+                            ,   "correct" : 0
+                            }
+                        ,
+                        ]    
+                    }
+                ,
+                ]
+            }   
+        ,    
+        ]
+    
+}

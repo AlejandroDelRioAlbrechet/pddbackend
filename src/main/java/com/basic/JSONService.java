@@ -4,7 +4,7 @@
  */
 package com.basic;
 
-import entities.Track;
+import com.entities.Track;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;

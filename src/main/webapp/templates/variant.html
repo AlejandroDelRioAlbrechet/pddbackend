@@ -1,0 +1,10 @@
+<div class="variants">
+    <ul class="variants-container clearfix">
+        <li ng-repeat="variant in variants" class="variant">
+            <a href="#/variants/{{variant}}">{{variant}}</a>
+        </li>
+    </ul>
+    <div class="buttons-container">
+        <button href="#" class="btn random-btn" ng-click="randomVariant()" >Випадковий варіант</button>
+    </div>
+</div>
